@@ -1,3 +1,79 @@
-#textarea{
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=EB+Garamond:wght@400;500&family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family: 'Cookie', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Montserrat', sans-serif;
+}
+:root{
+    --primarycolor: #f5e050;
+}
+
+nav{
+    background-color: var(--primarycolor);
+    text-align: center;
     box-sizing: border-box;
+    display: block;
+    margin-top: -2rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem ;
+
+}
+.textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    width: 570px;
+    height: 177px;
+}
+.main{
+ 
+    margin: auto;
+    
+    max-width: 600px;
+    box-sizing: border-box;
+}
+.button{
+    background-color: var(--primarycolor);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 0.9rem 2rem;
+    font-size: large;
+    margin-top: 0.5rem;
+    margin-left: rem;
+}
+
+/* .outputone{
+     font-size: larger ;  
+      margin-left: rem;
+      border: 1px black solid;
+      height: 10vh;
+      width: 100%;
+      padding: 1rem;
+      min-height: 10vh;
+      max-height: 20vh;
+      overflow: scroll;
+      box-sizing: border-box;
+      width: 600px;
+} */
+.footer{
+    background-color: var(--primarycolor);
+    text-align: center;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    display: block;
+       margin-left: -1rem;
+    margin-right: -1rem;
+}
+.hero{
+    text-align: center;    
+   
+}
+.hero-img{
+    height: 250px;
+    width: 250px;
 }
