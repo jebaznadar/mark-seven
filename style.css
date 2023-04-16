@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=EB+Garamond:wght@400;500&family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,500;1,600&display=swap');
 body{
-    font-family: 'Cookie', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Josefin Slab', serif;
 }
 :root{
-    --primarycolor: #f5e050;
+    --primarycolor: #4f46e5;
 }
 
 nav{
@@ -24,11 +23,13 @@ nav{
     box-sizing: border-box;
     display: block;
     width: 100%;
-    min-height: 20vh;
+    min-height: 10vh;
     margin-top: 2rem;
     font-size: large;
-    width: 570px;
-    height: 177px;
+    width: 590px;
+    height: 100px;
+    padding: 0.1rem;
+    
 }
 .main{
  
@@ -36,18 +37,21 @@ nav{
     
     max-width: 600px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 .button{
     background-color: var(--primarycolor);
     border: none;
-    margin: 1rem 0rem;
+    margin: 0rem ;
     padding: 0.9rem 2rem;
     font-size: large;
     margin-top: 0.5rem;
     margin-left: rem;
+    border-style: ridge ;
 }
 
-/* .outputone{
+.outputone{ 
      font-size: larger ;  
       margin-left: rem;
       border: 1px black solid;
@@ -59,7 +63,7 @@ nav{
       overflow: scroll;
       box-sizing: border-box;
       width: 600px;
-} */
+}
 .footer{
     background-color: var(--primarycolor);
     text-align: center;
@@ -70,10 +74,15 @@ nav{
     margin-right: -1rem;
 }
 .hero{
-    text-align: center;    
+    text-align: center;   
+    padding-top: 0%; 
+}
+.hero-img  
+{
+    padding-top:0.1rem;
+
    
 }
-.hero-img{
-    height: 250px;
-    width: 250px;
+.hero-heading{
+  margin: -1rem;
 }
